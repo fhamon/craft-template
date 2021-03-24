@@ -24,17 +24,11 @@ return [
     'modules' => [
         'build' => \modules\build\Build::class,
         'killswitch' => \modules\killswitch\Killswitch::class,
-        // 'languageRedirect' => [
-        //     'class' => \modules\languageRedirect\LanguageRedirect::class,
-        // ],
-        // 'twigExtension' => [
-        //     'class' => \modules\twigextension\TwigExtension::class,
-        // ]
+        'languageRedirect' => \modules\languageRedirect\LanguageRedirect::class,
     ],
     'bootstrap' => [
         'build',
         'killswitch',
-        // 'languageRedirect',
-        // 'twigExtension'
+        'languageRedirect',
     ],
 ];

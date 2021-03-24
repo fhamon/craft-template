@@ -13,7 +13,8 @@
   "autoload": {
     "psr-4": {
       "modules\\build\\": "modules/build/src/",
-      "modules\\killswitch\\": "modules/killswitch/src/"
+      "modules\\killswitch\\": "modules/killswitch/src/",
+      "modules\\languageRedirect\\": "modules/languageRedirect/src/"
     }
   },
   "config": {
