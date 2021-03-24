@@ -15,7 +15,7 @@ previewTargets:
         - ''
 propagationMethod: all
 siteSettings:
-  f484353b-72a8-4006-bcea-491be8d6ca43: # Craft Template
+  f484353b-72a8-4006-bcea-491be8d6ca43: # English
     enabledByDefault: true
     hasUrls: false
     template: null

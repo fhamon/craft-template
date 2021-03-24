@@ -1,0 +1,9 @@
+baseUrl: '@web/fr'
+enabled: true
+handle: french
+hasUrls: true
+language: fr
+name: French
+primary: false
+siteGroup: daecc81d-5ba3-4f93-a679-1a95d13c6c13 # Craft Template
+sortOrder: 2

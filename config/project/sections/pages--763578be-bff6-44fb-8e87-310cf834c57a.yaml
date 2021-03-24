@@ -15,10 +15,10 @@ previewTargets:
         - '1'
 propagationMethod: all
 siteSettings:
-  f484353b-72a8-4006-bcea-491be8d6ca43: # Craft Template
+  f484353b-72a8-4006-bcea-491be8d6ca43: # English
     enabledByDefault: true
     hasUrls: true
-    template: _pages/index
+    template: _pages/_default
     uriFormat: '{parent.uri}/{slug}'
 structure:
   maxLevels: 2
