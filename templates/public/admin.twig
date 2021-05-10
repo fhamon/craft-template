@@ -1,4 +1,7 @@
 {% if craft.app.getuser and craft.app.getuser.getIdentity and craft.app.getuser.getIdentity.can('accessCp') %}
+
+	{% header "Cache-Control: private, no-cache" %}
+
 	{% set currentElement = craft.app.urlManager.matchedElement %}
 	{% set editUrl = currentElement.cpEditUrl|default %}
 	{% set sites = craft.app.getSites().getGroupById(currentSite.groupId).getSites() %}
